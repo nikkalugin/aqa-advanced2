@@ -150,7 +150,7 @@ test.describe('Button "Register" tests', () => {
     test('Successful Registration', async ({ page }) => {
       await page.locator('#signupName').fill('Nikita');
       await page.locator('#signupLastName').fill('Kaluhin');
-      await page.locator('#signupEmail').fill('expeditiontomysoul+testuser13@gmail.com');
+      await page.locator('#signupEmail').fill('expeditiontomysoul+testuser11@gmail.com');
       await page.locator('#signupPassword').fill('For_The_Horde99');
       await page.locator('#signupRepeatPassword').fill('For_The_Horde99');
       await page.getByText('Register').click();
